@@ -61,7 +61,7 @@ generated_prompt = generate_dynamic_prompt(
 
 client = OpenAI(
             # Assumes OPENAI_API_KEY is set in environment variables
-            api_key='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'
+            api_key = st.secrets["OPENAI_KEY"]
         )
         
         # Make API call

@@ -61,7 +61,7 @@ generated_prompt = generate_dynamic_prompt(
 
 client = OpenAI(
             # Assumes OPENAI_API_KEY is set in environment variables
-            api_key='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'
+            api_key='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'
         )
         
         # Make API call
